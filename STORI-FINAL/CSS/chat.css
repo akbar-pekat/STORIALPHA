@@ -1,0 +1,169 @@
+html, .chat-container {
+  scroll-behavior: smooth;
+}
+
+.chat ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #3399FF;
+}
+
+.chat-container {
+  height: 420px;
+  overflow-y: auto;
+}
+
+@media only screen and (min-height: 568px) {
+  .chat-container {
+    height: 390px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 640px) {
+  .chat-container {
+    height: 462px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 667px) {
+  .chat-container {
+    height: 490px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 731px) {
+  .chat-container {
+    height: 552px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 736px) {
+  .chat-container {
+    height: 557px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 812px) {
+  .chat-container {
+    height: 633px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 823px) {
+  .chat-container {
+    height: 645px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 1024px) {
+  .chat-container {
+    height: 845px;
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (min-height: 1366px) {
+  .chat-container {
+    height: 1189px;
+    overflow-y: auto;
+  }
+}
+
+.message-left .message-time {
+  display: block;
+  font-size: 11px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 4px;
+  color: #909090;
+  font-family: 'Sen', sans-serif;
+}
+.message-right .message-time {
+  display: block;
+  font-size: 11px;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 4px;
+  color: #909090;
+  font-family: 'Sen', sans-serif;
+}
+.message-center .message-time {
+  display: none;
+}
+
+.message-left {
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  max-width: 645px;
+  margin-left: 5px;
+}
+.message-left .message-text {
+  max-width: 80%;
+  display: inline-block;
+  background: #fff;
+  padding: 15px;
+  font-size: 14px;
+  color: #000;
+  border-radius: 30px;
+  font-weight: 100;
+  line-height: 1.5em;
+}
+
+.message-right {
+  text-align: right;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.message-right .message-text {
+  line-height: 1.5em;
+  display: inline-block;
+  background: #5CAFFF;
+  padding: 15px;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 30px;
+  line-height: 1.5em;
+  font-weight: 100;
+  text-align: left;
+}
+
+.message-center {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+.message-center .message-text {
+  max-width: 500px;
+  display: inline-block;
+  background: #E0E0E0;
+  padding: 10px;
+  font-size: 14px;
+  color: #A8A8A8;
+  border-radius: 30px;
+  text-align: center;
+}
